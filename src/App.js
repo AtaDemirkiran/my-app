@@ -1,22 +1,13 @@
 import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
+import Deneme from './components/Deneme';
+// import User from './components/User';
 function App() {
   
   return (
     <div>
-
     
-      <Header
-        home = 'anasayfa'
-        contact = 'iletisim'
-        about ='hakkimizda'
-      />
-        <Footer
-        name ='ata'
-        surname ='demirkiran'
-        city= 'istanbul'
-      />
+      <Deneme/>
+
     </div>
 
   );
