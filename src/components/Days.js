@@ -1,22 +1,41 @@
 import React, { Component } from 'react'
 
 class Days extends Component {
-    constructor() {
-        super();
-        this.state = {
-          weekDays: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-        }
-      }
+
+  constructor(props){
+    super(props);
+
+    this.state={
+      marka : 'zara',
+      kategori :'ceket',
+      renk: 'kırmız',
+      cinsiyet: 'kadın'
+    };
+  }
+  renkDegistir = () => {
+    this.setState({renk: "Mavi"});
+  }
     
   render() {
+
+    const {marka,kategori,renk,cinsiyet} = this.state;
+
     return (
         <div>
-            <ul>
-            {this.state.weekDays.map((weekDay,index) => (
-                <li key={index}>{weekDay}</li>
-                ))
-            }
-            </ul>
+            <h1>Marka: {marka} </h1>
+
+            <div className='container'>
+                <ul>
+                  <li>Kategori: {kategori} </li>
+                  <li>Renk: {renk} </li>
+                  <li>Cinsyite:{cinsiyet} </li>
+                </ul>
+
+              <button onClick={this.renkDegistir}>
+                Button
+              </button>
+            </div>
+
         </div>
     )
   }
