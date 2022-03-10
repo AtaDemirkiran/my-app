@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import Futbolcu from './components/Futbolcu';
+// import Futbolcu from './components/Futbolcu';
+import Sayac from './components/Sayac';
 class App extends Component {
  
   state={
@@ -22,9 +23,10 @@ class App extends Component {
  render() {
     return (
       <div>
-        <Futbolcu
+        {/* <Futbolcu
           players={this.state.players}
-        />
+        /> */}
+      <Sayac/>
       </div>
     )
   }
