@@ -1,24 +1,31 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Sayac = () => {
-    const [toplam,setToplam]=useState(0);
-    return (
+    const [counter,setCounter]=useState(0);
+    useEffect(()=>{
+        console.log('ata');
+    },[counter]);
+  return (
     <div className='container'>
         <div className='card'>
-            <div className='card-header'>Sayi: {toplam} </div>
+            <div className='card-header '>
+                Sayaç
+            </div>
             <div className='card-body'>
-                <button type='button' className='btn btn-warning'
-                    onClick={(e)=>{
-                        setToplam(toplam+1);
-                        e.preventDefault();
+                <span>Counter : {counter} </span>
+                <br/><br/>
+                <button type='button' className='btn btn-danger'
+                    onClick={()=>{
+                        setCounter(counter+1);
+                        // e.preventDefault();
                     }}
-                >Sayı Arttır</button>
-                <button type='button' className='btn btn-success ml-2'
-                    onClick={(e)=>{
-                        setToplam(toplam-1);
-                        e.preventDefault();
-                    }}
-                >Sayı Azalt</button>
+                >Button</button><br/><br/>
+                <button type='button' className='btn btn-dark' 
+                  onClick={()=>{
+                      setCounter(0);
+                    //   e.preventDefault();
+                  }}
+                >Reset</button>
             </div>
         </div>
     </div>
