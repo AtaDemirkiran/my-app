@@ -49,6 +49,13 @@ class App extends Component {
                                 {/* <li className="nav-item">
                                     <a href="#" className="nav-link"> Users Info </a>
                                 </li> */}
+                                <li className="nav-item mt-2">
+                                  <a href='#'><i className="fa fa-instagram" style={{fontSize:'24px',color:'black'}}></i></a>
+                                  <a href='#' className='ml-2'><i className="fa fa-github" style={{fontSize:'24px',color:'black'}}></i></a>
+                                </li>
+                                <li className="nav-item mt-2">
+                                  <i className="fa fa-home" style={{color:'white'}}> İstanbul/Beyoğlu</i>
+                                </li>
                             </ul>
                         </div>
                     </nav>
