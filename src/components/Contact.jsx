@@ -4,7 +4,7 @@ class Contact extends Component {
     render() {
         return (
 
-            <section className="mb-4 mt-5">
+            <section className="mb-4 mt-5 ">
                 <h2 className="h1-responsive font-weight-bold text-center my-4">Benimle İletişime Geçin  </h2>
                 <div className="row d-flex justify-content-center">
                     <div className="col-md-9 mb-md-0 mb-5">
@@ -34,7 +34,7 @@ class Contact extends Component {
                         </form>
 
                         <div className="text-center text-md-left mt-3">
-                            <a className="btn btn-primary">Gönder</a>
+                            <a className="btn btn-primary mb-3">Gönder</a>
                         </div>
                         {/* <div className="status"></div> */}
                     </div>

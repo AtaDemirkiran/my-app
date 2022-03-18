@@ -21,8 +21,8 @@ class App extends Component {
     return (
       <Router>
       <div className="container-fluid">
-            <div className="row min-vh-100 flex-column flex-md-row">
-                <aside className="col-12 col-md-3 col-xl-2 p-0 bg-success ">
+            <div className="row min-vh-100 flex-column flex-md-row" style={{backgroundColor:'#352F44'}}>
+                <aside className="col-12 col-md-3 col-xl-2 p-0 " style={{backgroundColor:'#411E8F'}}>
                     <nav className="navbar navbar-expand-md navbar-dark bd-dark flex-md-column flex-row align-items-center py-2 text-center sticky-top "
                         id="sidebar">
                         <div className="text-center p-3">
@@ -53,9 +53,9 @@ class App extends Component {
                                   <a href='#'><i className="fa fa-instagram" style={{fontSize:'24px',color:'black'}}></i></a>
                                   <a href='#' className='ml-2'><i className="fa fa-github" style={{fontSize:'24px',color:'black'}}></i></a>
                                 </li>
-                                <li className="nav-item mt-2">
+                                {/* <li className="nav-item mt-2">
                                   <i className="fa fa-home" style={{color:'white'}}> İstanbul/Beyoğlu</i>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </nav>

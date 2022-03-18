@@ -6,11 +6,11 @@ class Home extends Component {
     render() {
         return (
 
-            <div className="container my-5 bg-dark">
+            <div className="container my-5" style={{ color: 'white' }}>
                 <section className="dark-grey-text">
 
                     <h3 className="text-center font-weight-bold mb-4 pb-2">Ben Kimim ?</h3>
-                    <p className="text-center text-muted w-responsive mx-auto mb-5">Merhaba Ben Ata Demirkıran. 23 Yaşında kendimi yazılım alanında geliştiren birisiym.</p>
+                    <p className="text-center text w-responsive mx-auto mb-5">Merhaba Ben Ata Demirkıran. 23 Yaşında kendimi yazılım alanında geliştiren birisiym.</p>
 
 
                     <div className="row">
@@ -26,14 +26,14 @@ class Home extends Component {
                                     <span className="fa-li"><i className="fas fa-book fa-2x cyan-text"></i></span>
                                     <div>
                                         <h5 className="font-weight-bold mb-3">Eğitim</h5>
-                                        <p className="text-muted">İstanbul Aydın Üniversitesi'nde Yazılım Mühendisliği (İngilizce) 4.sınıf öğrencisiyim.</p>
+                                        <p className="text">İstanbul Aydın Üniversitesi'nde Yazılım Mühendisliği (İngilizce) 4.sınıf öğrencisiyim.</p>
                                     </div>
                                 </li>
                                 <li className="d-flex justify-content-center pl-4">
                                     <span className="fa-li"><i className="fas fa-code fa-2x red-text"></i></span>
                                     <div>
                                         <h5 className="font-weight-bold mb-3">Teknolojiler</h5>
-                                        <p className="text-muted">Aktif olarak kendimi React JS üzerinde geliştirmeye çalışıyorum .Şu an bakmış olduğunuz bu site ise REACT JS ile hazırlandı.
+                                        <p className="text">Aktif olarak kendimi React JS üzerinde geliştirmeye çalışıyorum .Şu an bakmış olduğunuz bu site ise REACT JS ile hazırlandı.
                                             PHP dilinde orta seviyede bilgim var. PHP Framewrok olarakta Laravel'e temel seviyede hakimim. Genel MVC yapısını biliyorum. HTML/CSS iyi seviyede bilgim bulunmaktadır
                                             Javascript'te orta seviyede bilgim var.
                                         </p>
@@ -46,7 +46,7 @@ class Home extends Component {
                                         <p className="text-muted mb-0">lo</p>
                                     </div>
                                 </li> */}
-                                <a href='#' type='button' className='btn btn-warning'>CV İNDİR</a>
+                                <a href='#' type='button' className='btn btn-success'>CV İNDİR</a>
                             </ul>
                         </div>
 
