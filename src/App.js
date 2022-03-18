@@ -20,14 +20,14 @@ class App extends Component {
    const {color}=this.state
     return (
       <Router>
-      <div className="container-fluid bg-dark">
+      <div className="container-fluid">
             <div className="row min-vh-100 flex-column flex-md-row">
                 <aside className="col-12 col-md-3 col-xl-2 p-0 bg-success ">
                     <nav className="navbar navbar-expand-md navbar-dark bd-dark flex-md-column flex-row align-items-center py-2 text-center sticky-top "
                         id="sidebar">
                         <div className="text-center p-3">
                             <img src={photo} alt="profile picture"
-                                className="img-fluid rounded-circle my-4 p-1 d-none d-md-block shadow" />
+                                className="img-fluid rounded-circle my-5 p-0 d-none d-md-block shadow" />
                             <span className="navbar-brand mx-0 font-weight-bold  text-nowrap">ATA DEMİRKIRAN</span>
                         </div>
                         <button type="button" className="navbar-toggler border-0 order-1" data-toggle="collapse"

@@ -3,7 +3,9 @@ import Project from './Project'
 class Projects extends Component {
     render() {
         return (
-            <Project />
+            <div className='container my-5'>
+                <Project />
+            </div>
         )
     }
 }
