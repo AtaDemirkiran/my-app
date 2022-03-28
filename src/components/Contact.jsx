@@ -52,6 +52,9 @@ class Contact extends Component {
                         </div>
                     </div>
                 </div>
+                <div className='container mt-4 '>
+                    <iframe className='col-md-12' src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d17016.488880616784!2d28.887324603874628!3d41.06639860168685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1648472134052!5m2!1str!2str" style={{ border: 0, height: '300px' }} referrerPolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </section>
         )
     }

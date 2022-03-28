@@ -1,6 +1,10 @@
 *{
     color : white;
 }
+body::-webkit-scrollbar {
+    width: 1px;  
+    background-color: #000;
+  }
 h1 h2 {
     color: white
 }
@@ -11,7 +15,6 @@ h1 h2 {
 }
 @media (min-width: 768px) {
    
-
     #sidebar {
         /* background-color: red; */
         margin-top:280px;
@@ -39,7 +42,7 @@ h1 h2 {
     }
     .projectImages{
         transition: .6s ease;
-        opacity: 0.88;
+        opacity: 0.66;
     }
     .projectImages:hover{
         transform: scale(1.1);
@@ -52,5 +55,8 @@ h1 h2 {
         margin-top: 40px;
         margin-left:120px;
     }
-    
+    .projectDetail{
+        padding-top: 30px;
+    }
   }
+  

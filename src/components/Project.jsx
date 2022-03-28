@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import '../App.css'
 class Project extends Component {
     constructor(props) {
         super(props);
@@ -23,7 +23,7 @@ class Project extends Component {
             <div className="col-md-6 mb-5">
 
                 <div className="view overlay rounded z-depth-1">
-                    <img src={projects.projectIMG} className="img-fluid projectImages" alt="Sample project image" />
+                    <img src={projects.projectIMG} className="img-fluid projectImages" alt="Sample project" />
                     <a>
                         <div className="mask rgba-white-slight"></div>
                     </a>
@@ -38,7 +38,7 @@ class Project extends Component {
                     }} >Detay Göster </button>
                     {
                         isVisible ? (
-                            <p className="mt-2">{projects.projectDetay} </p>
+                            <p className="mt-2 projectDetail ">{projects.projectDetay} </p>
                         ) : null
                     }
                 </div>

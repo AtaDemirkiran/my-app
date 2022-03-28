@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import photo from '../assets/images/photo.jpg'
 import homePhoto from '../assets/images/sliderPhoto.jpg'
+import cv from '../assets/AtaDemirkıran.pdf'
 
 class Home extends Component {
     render() {
@@ -39,20 +40,17 @@ class Home extends Component {
                                         </p>
                                     </div>
                                 </li>
-                                {/* <li className="d-flex justify-content-center pl-4">
-                                    <span className="fa-li"><i className="fas fa-business-time fa-2x deep-purple-text"></i></span>
-                                    <div>
-                                        <h5 className="font-weight-bold mb-3">Staj/İş Tecrübeleri</h5>
-                                        <p className="text-muted mb-0">lo</p>
-                                    </div>
-                                </li> */}
-                                <a href='#' type='button' className='btn btn-dark' id='homeButton'>CV İNDİR</a>
+
+                                <a href={cv} download>
+                                    <button className='btn btn-light'>CV İNDİR</button>
+                                </a>
                             </ul>
+                            {/* skilss */}
+
+
                         </div>
 
-
                     </div>
-
 
                     <hr className="my-5" />
 
