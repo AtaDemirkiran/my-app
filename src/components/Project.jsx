@@ -23,7 +23,7 @@ class Project extends Component {
             <div className="col-md-6 mb-5">
 
                 <div className="view overlay rounded z-depth-1">
-                    <img src={projects.projectIMG} className="img-fluid" alt="Sample project image" />
+                    <img src={projects.projectIMG} className="img-fluid projectImages" alt="Sample project image" />
                     <a>
                         <div className="mask rgba-white-slight"></div>
                     </a>
@@ -31,14 +31,14 @@ class Project extends Component {
 
                 <div className="px-3 pt-3 mx-1 mt-1 pb-0">
                     <h4 className="font-weight-bold mb-3">{projects.projectName}</h4>
-                    <button className="btn btn-success btn-rounded btn-md" onClick={() => {
+                    <button className="btn btn-dark btn-rounded btn-md" onClick={() => {
                         this.setState({
                             isVisible: !isVisible
                         })
                     }} >Detay Göster </button>
                     {
                         isVisible ? (
-                            <p className="text-muted mt-2">{projects.projectDetay} </p>
+                            <p className="mt-2">{projects.projectDetay} </p>
                         ) : null
                     }
                 </div>

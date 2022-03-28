@@ -1,0 +1,56 @@
+*{
+    color : white;
+}
+h1 h2 {
+    color: white
+}
+.btn {
+  background-color: #999;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+@media (min-width: 768px) {
+   
+
+    #sidebar {
+        /* background-color: red; */
+        margin-top:280px;
+    
+    }
+    #sidebar .baslik {
+        font-size:120%;
+    }
+    .nav-item:hover {
+        text-decoration: none;
+        font-size:17px;
+    } 
+    #homeButton{
+        margin-left:23px;
+    }
+    .homePhoto{
+        height:500px;
+    }
+    .socialMedia{
+        margin-top:100px;
+        /* margin-left:20px */
+    }
+    .homePhoto:hover{
+        transform: scale(1.1);
+    }
+    .projectImages{
+        transition: .6s ease;
+        opacity: 0.88;
+    }
+    .projectImages:hover{
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    .contactPage{
+        padding-top: 50px;
+    }
+    .contactIcons{
+        margin-top: 40px;
+        margin-left:120px;
+    }
+    
+  }

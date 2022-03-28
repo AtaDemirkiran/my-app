@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import photo from '../assets/images/pp.jpg'
+import photo from '../assets/images/photo.jpg'
 import homePhoto from '../assets/images/sliderPhoto.jpg'
 
 class Home extends Component {
@@ -17,23 +17,23 @@ class Home extends Component {
 
                         <div className="col-lg-5 mb-lg-0 mb-5">
 
-                            <img src={homePhoto} className="img-fluid rounded z-depth-1" alt="Sample project image" />
+                            <img src={photo} className="img-fluid rounded z-depth-1 homePhoto" alt="Sample project" style={{ objectFit: 'cover', transition: '.3s' }} />
 
                         </div>
                         <div className="col-lg-7">
                             <ul className="list-unstyled fa-ul mb-0">
-                                <li className="d-flex justify-content-center pl-4">
+                                <li className="d-flex justify-content-center pl-4 mt-2">
                                     <span className="fa-li"><i className="fas fa-book fa-2x cyan-text"></i></span>
                                     <div>
                                         <h5 className="font-weight-bold mb-3">Eğitim</h5>
                                         <p className="text">İstanbul Aydın Üniversitesi'nde Yazılım Mühendisliği (İngilizce) 4.sınıf öğrencisiyim.</p>
                                     </div>
                                 </li>
-                                <li className="d-flex justify-content-center pl-4">
+                                <li className="d-flex justify-content-center pl-4 mt-5">
                                     <span className="fa-li"><i className="fas fa-code fa-2x red-text"></i></span>
                                     <div>
                                         <h5 className="font-weight-bold mb-3">Teknolojiler</h5>
-                                        <p className="text">Aktif olarak kendimi React JS üzerinde geliştirmeye çalışıyorum .Şu an bakmış olduğunuz bu site ise REACT JS ile hazırlandı.
+                                        <p className="text">Aktif olarak kendimi React JS üzerinde geliştirmeye çalışıyorum. Şu an bakmış olduğunuz bu sitede REACT JS ile hazırlandı.
                                             PHP dilinde orta seviyede bilgim var. PHP Framewrok olarakta Laravel'e temel seviyede hakimim. Genel MVC yapısını biliyorum. HTML/CSS iyi seviyede bilgim bulunmaktadır
                                             Javascript'te orta seviyede bilgim var.
                                         </p>
@@ -46,7 +46,7 @@ class Home extends Component {
                                         <p className="text-muted mb-0">lo</p>
                                     </div>
                                 </li> */}
-                                <a href='#' type='button' className='btn btn-success'>CV İNDİR</a>
+                                <a href='#' type='button' className='btn btn-dark' id='homeButton'>CV İNDİR</a>
                             </ul>
                         </div>
 
@@ -57,6 +57,7 @@ class Home extends Component {
                     <hr className="my-5" />
 
                 </section>
+
 
 
 
