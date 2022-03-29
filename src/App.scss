@@ -6,7 +6,8 @@ $btn-background-hover:#000;
     color : $text-color;
 }
 body::-webkit-scrollbar {
-    width: 1px;  
+    overflow-y: auto;
+    width:0px;  
     background-color: #000;
   }
 
@@ -24,6 +25,8 @@ body::-webkit-scrollbar {
    
     #sidebar {
         margin-top:280px;
+        margin-left:2%;
+        position: fixed;
 
         .baslik {
             font-size:120%;
@@ -75,5 +78,7 @@ body::-webkit-scrollbar {
     .projectDetail{
         padding-top: 30px;
     }
+
+   
   }
   
