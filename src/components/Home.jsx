@@ -12,7 +12,7 @@ class Home extends Component {
                 <section className="dark-grey-text">
 
                     <h3 className="text-center font-weight-bold mb-4 pb-2">Ben Kimim ?</h3>
-                    <p className="text-center text w-responsive mx-auto mb-5">Merhaba Ben Ata Demirkıran. 23 Yaşında kendimi yazılım alanında geliştiren birisiym.</p>
+                    <p className="text-center text w-responsive mx-auto mb-5">Merhaba Ben Ata Demirkıran. 23 Yaşında kendimi yazılım alanında geliştiren birisiyim.</p>
 
 
                     <div className="row">
