@@ -40,10 +40,10 @@ const Header = () => {
                     </li> */}
                         <li>
                             <div className='socialMedia'>
-                                <a href='#'> <i className="fab fa-youtube"></i></a>
-                                <a href='#'><i className="fab fa-github ml-3"></i></a>
+                                <a href='https://www.youtube.com/channel/UCFOATOZpGznDkhupwVLGs1g'> <i className="fab fa-youtube"></i></a>
+                                <a href='https://github.com/AtaDemirkiran'><i className="fab fa-github ml-3"></i></a>
                                 <a href='#'> <i className="fab fa-instagram ml-3"></i></a>
-                                <a href='#'><i className="fab fa-linkedin-in ml-3"></i></a>
+                                <a href='https://www.linkedin.com/in/ata-demirk%C4%B1ran-75b14a19a/'><i className="fab fa-linkedin-in ml-3"></i></a>
                             </div>
                         </li>
                     </ul>

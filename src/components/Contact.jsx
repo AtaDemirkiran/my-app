@@ -1,5 +1,5 @@
 import React from 'react'
-import '../App.scss'
+// import '../App.scss'
 
 const Contact = () => {
     return (
@@ -7,7 +7,7 @@ const Contact = () => {
             <h2 className="h1-responsive font-weight-bold text-center my-4">Benimle İletişime Geçin  </h2>
             <div className="row d-flex justify-content-center">
                 <div className="col-md-9 mb-md-0 mb-5">
-                    <form id="contact-form" name="contact-form" action="#" method="POST">
+                    <form id="contact-form" name="contact-form" action="mailto:atademirkiran@gmail.com.com" method="POST">
                         <div className="row">
                             <div className="col-md-6 mt-4">
                                 <div className="md-form mb-0">
@@ -29,12 +29,12 @@ const Contact = () => {
                             </div>
                         </div>
 
+                        <div className="text-center text-md-left mt-3">
+                            <input type='submit' className='btn btn-dark mb-3' />
+                        </div>
 
                     </form>
 
-                    <div className="text-center text-md-left mt-3">
-                        <a className="btn btn-dark mb-3">Gönder</a>
-                    </div>
                     {/* <div className="status"></div> */}
                 </div>
             </div>

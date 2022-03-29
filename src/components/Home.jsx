@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import photo from '../assets/images/photo.jpg'
+import sitePhoto from '../assets/images/sitePhoto.jpg'
 // import homePhoto from '../assets/images/sliderPhoto.jpg'
 import cv from '../assets/AtaDemirkıran.pdf'
 
@@ -18,7 +19,7 @@ class Home extends Component {
 
                         <div className="col-lg-5 mb-lg-0 mb-5">
 
-                            <img src={photo} className="img-fluid rounded z-depth-1 homePhoto" alt="Sample project" style={{ objectFit: 'cover', transition: '.3s' }} />
+                            <img src={sitePhoto} className="img-fluid rounded z-depth-1 homePhoto" alt="Sample project" />
 
                         </div>
                         <div className="col-lg-7">

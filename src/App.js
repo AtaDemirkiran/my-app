@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <Router>
       <div className="container-fluid">
-            <div className="row min-vh-100 flex-column flex-md-row" style={{backgroundColor:'#111'}}>
+            <div className="row min-vh-100 flex-column flex-md-row">
               
               <Header/>
 

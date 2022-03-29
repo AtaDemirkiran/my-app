@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../App.scss'
+
 const Project = ({ project }) => {
 
     const [visible, setVisible] = useState(false)
