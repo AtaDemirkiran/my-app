@@ -44,7 +44,7 @@ const Contact = () => {
                         <i className="fa fa-phone"></i> (532) 228 18 22
                     </div>
                     <div className='col-md-3 p-2'>
-                        <i className="fa fa-home"> </i> Beyoğlu / İstanbull
+                        <i className="fa fa-home"> </i> Beyoğlu / İstanbul
                     </div>
                     <div className='col-md-3 p-2'>
                         <i className="fa fa-envelope"></i> atademirkiran@gmail.com
