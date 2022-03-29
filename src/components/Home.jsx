@@ -52,7 +52,6 @@ class Home extends Component {
 
                     </div>
 
-                    <hr className="my-5" />
 
                 </section>
 
