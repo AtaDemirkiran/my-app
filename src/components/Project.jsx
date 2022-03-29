@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../App.css'
+import '../App.scss'
 class Project extends Component {
     constructor(props) {
         super(props);

@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import photo from '../assets/images/photo.jpg'
-import homePhoto from '../assets/images/sliderPhoto.jpg'
+// import homePhoto from '../assets/images/sliderPhoto.jpg'
 import cv from '../assets/AtaDemirkıran.pdf'
 
 class Home extends Component {
     render() {
         return (
 
-            <div className="container my-5" style={{ color: 'white' }}>
+            <div className="container my-5">
                 <section className="dark-grey-text">
 
                     <h3 className="text-center font-weight-bold mb-4 pb-2">Ben Kimim ?</h3>
@@ -42,7 +42,7 @@ class Home extends Component {
                                 </li>
 
                                 <a href={cv} download>
-                                    <button className='btn btn-light'>CV İNDİR</button>
+                                    <button className='btn btn-light' id='homeButton'>CV İNDİR</button>
                                 </a>
                             </ul>
                             {/* skilss */}

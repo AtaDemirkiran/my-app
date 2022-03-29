@@ -4,7 +4,7 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Header from './components/Header';
-import './App.css'
+import './App.scss'
 
 class App extends Component {
   

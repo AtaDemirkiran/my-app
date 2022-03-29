@@ -39,12 +39,12 @@ const Header = () => {
                       <i className="fa fa-home" style={{color:'white'}}> İstanbul/Beyoğlu</i>
                     </li> */}
                         <li>
-                            {/* <div className='socialMedia'> */}
-                            <a href='#'> <i className="fab fa-youtube"></i></a>
-                            <a href='#'><i className="fab fa-github ml-3"></i></a>
-                            <a href='#'> <i className="fab fa-instagram ml-3"></i></a>
-                            <a href='#'><i className="fab fa-linkedin-in ml-3"></i></a>
-                            {/* </div> */}
+                            <div className='socialMedia'>
+                                <a href='#'> <i className="fab fa-youtube"></i></a>
+                                <a href='#'><i className="fab fa-github ml-3"></i></a>
+                                <a href='#'> <i className="fab fa-instagram ml-3"></i></a>
+                                <a href='#'><i className="fab fa-linkedin-in ml-3"></i></a>
+                            </div>
                         </li>
                     </ul>
                 </div>

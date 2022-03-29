@@ -1,0 +1,79 @@
+
+$text-color:#fff;
+$btn-background-hover:#000;
+
+*{
+    color : $text-color;
+}
+body::-webkit-scrollbar {
+    width: 1px;  
+    background-color: #000;
+  }
+
+.btn {
+  background-color: #999;
+  color: black;
+  border: 1px solid #e7e7e7;
+  
+  &:hover{
+      background-color:$btn-background-hover;
+      color: $text-color;
+  }
+}
+@media (min-width: 768px) {
+   
+    #sidebar {
+        margin-top:280px;
+
+        .baslik {
+            font-size:120%;
+        }
+        
+        .nav-item:hover {
+            text-decoration: none;
+            font-size:17px;
+        } 
+    }
+    
+    .homePhoto{
+        height:500px;
+        
+        &:hover{
+            transform: scale(1.1);
+        }
+    
+    }
+
+    .projectImages{
+        transition: .6s ease;
+        opacity: 0.66;
+        
+        &:hover {
+            transform: scale(1.1);
+            opacity: 1;
+        }
+    }
+
+    #homeButton{
+        margin-left:23px;
+    }
+    .socialMedia{
+        margin-top:30px;
+        /* margin-left:20px */
+    }
+   
+    .contactPage{
+
+        padding-top: 50px;
+
+        .contactIcons{
+            margin-top: 40px;
+            margin-left:120px;
+        }
+    }
+    
+    .projectDetail{
+        padding-top: 30px;
+    }
+  }
+  
