@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const Project = ({ project }) => {
 
@@ -21,11 +22,22 @@ const Project = ({ project }) => {
 
             <div className="px-3 pt-3 mx-1 mt-1 pb-0">
                 <h4 className="font-weight-bold mb-3">{project.projectName}</h4>
+
                 <button className="btn btn-dark btn-rounded btn-md" onClick={() => toogleVisible()}>
                     {!visible ? 'Detay Göster' : 'Detay Gizle'}
                 </button>
                 {
-                    visible ? <p className="mt-2 projectDetail "> {project.projectDetay}  </p> : null
+                    visible ?
+                        <div className='projectDetail'>
+                            {
+                                project.isLive ?
+                                    <p> Site Link : <a href={project.siteLink}> {project.siteLink} </a> </p>
+                                    : null
+                            }
+                            <p className='pt-2'> {project.projectDetay}  </p>
+                        </div>
+
+                        : null
                 }
 
 
