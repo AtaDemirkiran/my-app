@@ -10,7 +10,9 @@ const Header = () => {
                 <div className="text-center p-3">
                     {/* <img src={photo} alt="profile picture"
                     className="img-fluid rounded-circle my-5 p-0 d-none d-md-block shadow" /> */}
-                    <span className="navbar-brand mx-0 font-weight-bold text-nowrap baslik">ATA DEMİRKIRAN</span>
+                    <Link to='/'>
+                        <span className="navbar-brand mx-0 font-weight-bold text-nowrap baslik">ATA DEMİRKIRAN</span>
+                    </Link>
                 </div>
                 <button type="button" className="navbar-toggler border-0 order-1" data-toggle="collapse"
                     data-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,10 +42,10 @@ const Header = () => {
                     </li> */}
                         <li>
                             <div className='socialMedia'>
-                                <a href='https://www.youtube.com/channel/UCFOATOZpGznDkhupwVLGs1g'> <i className="fab fa-youtube"></i></a>
-                                <a href='https://github.com/AtaDemirkiran'><i className="fab fa-github ml-3"></i></a>
+                                <a href='https://www.youtube.com/channel/UCFOATOZpGznDkhupwVLGs1g' target='_blank' > <i className="fab fa-youtube"></i></a>
+                                <a href='https://github.com/AtaDemirkiran' target='_blank' ><i className="fab fa-github ml-3"></i></a>
                                 <a href='#'> <i className="fab fa-instagram ml-3"></i></a>
-                                <a href='https://www.linkedin.com/in/ata-demirk%C4%B1ran-75b14a19a/'><i className="fab fa-linkedin-in ml-3"></i></a>
+                                <a href='https://www.linkedin.com/in/ata-demirk%C4%B1ran-75b14a19a/' target='_blank' ><i className="fab fa-linkedin-in ml-3"></i></a>
                             </div>
                         </li>
                     </ul>

@@ -31,7 +31,7 @@ const Project = ({ project }) => {
                         <div className='projectDetail'>
                             {
                                 project.isLive ?
-                                    <p> Site Link : <a href={project.siteLink}> {project.siteLink} </a> </p>
+                                    <p> Site Link : <a href={project.siteLink} target='_blank' > {project.siteLink} </a> </p>
                                     : null
                             }
                             <p className='pt-2'> {project.projectDetay}  </p>
