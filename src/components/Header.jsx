@@ -22,30 +22,20 @@ const Header = () => {
                 <div className="collapse navbar-collapse order-last" id="nav">
                     <ul className="navbar-nav flex-column w-100 justify-content-center">
                         <li className="nav-item">
-                            <NavLink to={'/'} style={{ color }} >Ana Sayfa</NavLink>
+                            <NavLink to={'/'} className='forNavitem' >Ana Sayfa</NavLink>
                         </li>
                         <li className="nav-item mt-2">
-                            <NavLink to={'/projects'} style={{ color }}>Projeler</NavLink>
+                            <NavLink to={'/projects'} className='forNavitem'>Projeler</NavLink>
                         </li>
                         <li className="nav-item mt-2">
-                            <NavLink to={'/contact'} style={{ color }}>İletişim</NavLink>
+                            <NavLink to={'/contact'} className='forNavitem' >İletişim</NavLink>
                         </li>
-                        {/* <li className="nav-item">
-                        <a href="#" className="nav-link"> Users Info </a>
-                    </li> */}
-                        <li className="nav-item mt-2">
-                            <a href='#'><i className="fa fa-instagram" style={{ fontSize: '24px', color: 'black' }}></i></a>
-                            <a href='#' className='ml-2'><i className="fa fa-github" style={{ fontSize: '24px', color: 'black' }}></i></a>
-                        </li>
-                        {/* <li className="nav-item mt-2">
-                      <i className="fa fa-home" style={{color:'white'}}> İstanbul/Beyoğlu</i>
-                    </li> */}
                         <li>
                             <div className='socialMedia'>
-                                <a href='https://www.youtube.com/channel/UCFOATOZpGznDkhupwVLGs1g' target='_blank' > <i className="fab fa-youtube"></i></a>
-                                <a href='https://github.com/AtaDemirkiran' target='_blank' ><i className="fab fa-github ml-3"></i></a>
-                                <a href='#'> <i className="fab fa-instagram ml-3"></i></a>
-                                <a href='https://www.linkedin.com/in/ata-demirk%C4%B1ran-75b14a19a/' target='_blank' ><i className="fab fa-linkedin-in ml-3"></i></a>
+                                <a href='https://www.youtube.com/channel/UCFOATOZpGznDkhupwVLGs1g' target='_blank' > <i className="fab fa-youtube social-media-icon"></i></a>
+                                <a href='https://github.com/AtaDemirkiran' target='_blank' ><i className="fab fa-github ml-3 social-media-icon"></i></a>
+                                <a href='#'> <i className="fab fa-instagram ml-3 social-media-icon"></i></a>
+                                <a href='https://www.linkedin.com/in/ata-demirk%C4%B1ran-75b14a19a/' target='_blank' ><i className="fab fa-linkedin-in ml-3 social-media-icon"></i></a>
                             </div>
                         </li>
                     </ul>

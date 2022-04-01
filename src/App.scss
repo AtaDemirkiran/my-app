@@ -29,6 +29,37 @@ body::-webkit-scrollbar {
     }
 }
 
+%hover-shared {
+    color: rgb(121, 114, 114);
+    text-decoration: none;
+}
+
+.navbar {
+    .forNavitem {
+        color: #fff;
+
+        &:hover {
+            @extend %hover-shared;
+        }
+    }
+
+    .baslik {
+        &:hover {
+            @extend %hover-shared;
+        }
+    }
+
+    .social-media-icon {
+        &:hover {
+            @extend %hover-shared;
+        }
+    }
+}
+
+
+
+
+// LAPTOP DESKTOP
 @media (min-width: 768px) {
 
     #sidebar {
@@ -38,11 +69,6 @@ body::-webkit-scrollbar {
 
         .baslik {
             font-size: 120%;
-        }
-
-        .nav-item:hover {
-            text-decoration: none;
-            font-size: 17px;
         }
     }
 
@@ -72,7 +98,7 @@ body::-webkit-scrollbar {
     }
 
     .socialMedia {
-        margin-top: 30px;
+        margin-top: 60px;
         /* margin-left:20px */
     }
 

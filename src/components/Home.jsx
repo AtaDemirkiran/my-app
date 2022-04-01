@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
-import photo from '../assets/images/photo.jpg'
 import sitePhoto from '../assets/images/sitePhoto.jpg'
 // import homePhoto from '../assets/images/sliderPhoto.jpg'
-import cv from '../assets/AtaDemirkıran.pdf'
+import cv from '../assets/Ata_Demirkiran_CV.pdf'
 
 class Home extends Component {
     render() {
