@@ -42,7 +42,7 @@ class Home extends Component {
                                 </li>
 
                                 <a href={cv} download>
-                                    <button className='btn btn-light' id='homeButton'>CV İNDİR</button>
+                                    <button className='btn btn-light' id='homeButton'>CV GOSTER</button>
                                 </a>
                             </ul>
                             {/* skilss */}
